@@ -23,7 +23,8 @@ new App({
 			'cycling',
 			'building Keyboards', 
 			'sewing', 
-			'visit CI/CD workshops'
+			'visit CI/CD workshops',
+			'playing around with jenkins'
 		]
 	}
 });
