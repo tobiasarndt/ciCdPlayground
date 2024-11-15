@@ -43,10 +43,8 @@ jobs:
       run: yarn test:e2e
 
     # 7. Upload JUnit Test Results
-    - name: Upload JUnit Test Results
-      if: always() # Ensure this step runs even if previous steps fail
-      uses: actions/upload-artifact@v3
+    - name: Publish Test Report
+      uses: mikepenz/action-junit-report@v5
+      if: success() || failure() # always run even if the previous step fails
       with:
-        name: junit-test-results
-        path: |
-          reports/*.xml
+        report_paths: 'reports/*.xml'
