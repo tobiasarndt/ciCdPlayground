@@ -4,7 +4,7 @@ new App({
 	target: document.body,
 	props: {
 		// What's your name?
-		name: 'James Butler',
+		name: 'Tobias Arndt',
 		// In the following fiels you can either give a single string, 
 		// or an array of bullet points
 		
@@ -16,13 +16,14 @@ new App({
 		tools: 'Jenkins, maybe?',
 		// What do you want to learn in this workshop? 
 		expectations: [
-			'what you are talking about'
+			'Get a better understanding of CI/DC than pipeline red -> :('
 		],
 		// What do you like to do when you're not coding?
 		hobbies: [
-			'play chess', 
-			'do skydiving', 
-			'do my taxes'
+			'cycling',
+			'building Keyboards', 
+			'sewing', 
+			'visit CI/CD workshops'
 		]
 	}
 });
