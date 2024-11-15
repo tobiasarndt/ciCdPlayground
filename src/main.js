@@ -24,7 +24,8 @@ new App({
 			'building Keyboards', 
 			'sewing', 
 			'visit CI/CD workshops',
-			'playing around with jenkins'
+			'playing around with jenkins',
+			'working now?'
 		]
 	}
 });
