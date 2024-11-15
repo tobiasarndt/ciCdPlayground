@@ -49,5 +49,4 @@ jobs:
       with:
         name: junit-test-results
         path: |
-          **/test-results/unit/*.xml
-          **/test-results/integration/*.xml
+          reports/*.xml
