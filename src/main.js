@@ -13,7 +13,7 @@ new App({
 			'Ehm, what?'
 		],
 		// Which CI/CD tools do you use in your project?
-		tools: 'Jenkins, maybe?',
+		tools: 'aws pipelines, codebuild',
 		// What do you want to learn in this workshop? 
 		expectations: [
 			'Get a better understanding of CI/DC than pipeline red -> :('
